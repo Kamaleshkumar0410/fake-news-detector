@@ -689,7 +689,7 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.image("🔍", width=80)
+        st.markdown("🔍")
         st.title("Navigation")
         
         analysis_type = st.radio(
